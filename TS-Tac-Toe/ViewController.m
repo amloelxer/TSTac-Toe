@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TS_Tac_Toe-Swift.h"
 
 @interface ViewController ()
 
@@ -18,12 +19,16 @@
     [super viewDidLoad];
 }
 
+// Do single player stuff here
 - (IBAction)singlePlayerButtonClicked:(UIButton *)sender {
-    
+    TSTacToeViewController *vc = [TSTacToeViewController new];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
+// Do multiplayer stuff here
 - (IBAction)multiplayerButtonClicked:(UIButton *)sender {
-    
+    TSTacToeViewController *vc = [TSTacToeViewController new];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 

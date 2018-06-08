@@ -8,12 +8,11 @@
 
 import UIKit
 
-class TSTacToeViewController: UIViewController {
+@objc class TSTacToeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
     
     
 }
