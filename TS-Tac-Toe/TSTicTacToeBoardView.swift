@@ -52,7 +52,6 @@ class TSTicTacToeBoardView: UIView {
     fileprivate func setupSquare(_ imageView: UIImageView) -> UIImageView {
         var styledImageView = imageView
         styledImageView.backgroundColor = UIColor.green
-        styledImageView.tag = i
         styledImageView.layer.borderWidth = 2
         styledImageView.layer.borderColor = UIColor.black.cgColor
         return styledImageView
