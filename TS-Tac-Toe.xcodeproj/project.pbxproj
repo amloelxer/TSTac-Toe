@@ -16,6 +16,8 @@
 		08722F9920CAD0AE0083CAAA /* TS_Tac_ToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08722F9820CAD0AE0083CAAA /* TS_Tac_ToeTests.m */; };
 		08722FA620CAD1510083CAAA /* TSTacToeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08722FA420CAD1510083CAAA /* TSTacToeViewController.swift */; };
 		08722FA720CAD1510083CAAA /* TSTacToeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08722FA520CAD1510083CAAA /* TSTacToeViewController.xib */; };
+		087A7C8A20CAD982004FAB0A /* TSTicTacToeBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087A7C8920CAD982004FAB0A /* TSTicTacToeBoardView.swift */; };
+		087A7C8C20CAD9A4004FAB0A /* TSTicTacToeBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 087A7C8B20CAD9A4004FAB0A /* TSTicTacToeBoardView.xib */; };
 		FEEA6D8A9588D71AD83A0DE8 /* Pods_TS_Tac_Toe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7568B5B31E8F462D04CCCA4A /* Pods_TS_Tac_Toe.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		08722FA320CAD1510083CAAA /* TS-Tac-Toe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TS-Tac-Toe-Bridging-Header.h"; sourceTree = "<group>"; };
 		08722FA420CAD1510083CAAA /* TSTacToeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSTacToeViewController.swift; sourceTree = "<group>"; };
 		08722FA520CAD1510083CAAA /* TSTacToeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSTacToeViewController.xib; sourceTree = "<group>"; };
+		087A7C8920CAD982004FAB0A /* TSTicTacToeBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSTicTacToeBoardView.swift; sourceTree = "<group>"; };
+		087A7C8B20CAD9A4004FAB0A /* TSTicTacToeBoardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TSTicTacToeBoardView.xib; sourceTree = "<group>"; };
 		49BC8C2B1C19D9E646D13015 /* Pods-TS-Tac-Toe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TS-Tac-Toe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TS-Tac-Toe/Pods-TS-Tac-Toe.debug.xcconfig"; sourceTree = "<group>"; };
 		5C192229FF5C95AF9651217D /* Pods-TS-Tac-Toe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TS-Tac-Toe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TS-Tac-Toe/Pods-TS-Tac-Toe.release.xcconfig"; sourceTree = "<group>"; };
 		7568B5B31E8F462D04CCCA4A /* Pods_TS_Tac_Toe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TS_Tac_Toe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +109,8 @@
 				08722FA420CAD1510083CAAA /* TSTacToeViewController.swift */,
 				08722FA520CAD1510083CAAA /* TSTacToeViewController.xib */,
 				08722FA320CAD1510083CAAA /* TS-Tac-Toe-Bridging-Header.h */,
+				087A7C8920CAD982004FAB0A /* TSTicTacToeBoardView.swift */,
+				087A7C8B20CAD9A4004FAB0A /* TSTicTacToeBoardView.xib */,
 			);
 			path = "TS-Tac-Toe";
 			sourceTree = "<group>";
@@ -222,6 +228,7 @@
 				08722FA720CAD1510083CAAA /* TSTacToeViewController.xib in Resources */,
 				08722F8920CAD0AD0083CAAA /* Assets.xcassets in Resources */,
 				08722F8720CAD0AC0083CAAA /* Main.storyboard in Resources */,
+				087A7C8C20CAD9A4004FAB0A /* TSTicTacToeBoardView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08722F8420CAD0AC0083CAAA /* ViewController.m in Sources */,
+				087A7C8A20CAD982004FAB0A /* TSTicTacToeBoardView.swift in Sources */,
 				08722FA620CAD1510083CAAA /* TSTacToeViewController.swift in Sources */,
 				08722F8F20CAD0AD0083CAAA /* main.m in Sources */,
 				08722F8120CAD0AC0083CAAA /* AppDelegate.m in Sources */,
