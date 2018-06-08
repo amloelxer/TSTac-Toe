@@ -16,12 +16,8 @@ import UIKit
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        let boardView = TSTicTacToeBoardView(frame: CGRect(x: 0, y: 0, width: 300, height: 300))
+        let boardView = TSTicTacToeBoardView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 500))
         self.view.addSubview(boardView)
-//        let boardView = TSTicTacToeBoardView(
-//        let boardView = TSTicTacToeBoardView(coder: nil)
-//        self.view.addSubview(boardView)
     }
-    
     
 }

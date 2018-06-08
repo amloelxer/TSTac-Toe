@@ -12,7 +12,6 @@ class TSTicTacToeBoardView: UIView {
     
     @IBOutlet var view: UIView!
     
-    
     var arrayOfImageViews = [UIImageView]()
     
     override init(frame: CGRect) {
@@ -60,7 +59,7 @@ class TSTicTacToeBoardView: UIView {
     
     func tileWasTapped(sender: UIGestureRecognizer) {
         if let imageView = sender.view as? UIImageView {
-            print("The image tag is \(imageView.tag)")
+            imageView.image = UIImage(named: "x-icon")
         }
     }
     
