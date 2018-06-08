@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08722F8120CAD0AC0083CAAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08722F8020CAD0AC0083CAAA /* AppDelegate.m */; };
+		08722F8420CAD0AC0083CAAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08722F8320CAD0AC0083CAAA /* ViewController.m */; };
+		08722F8720CAD0AC0083CAAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08722F8520CAD0AC0083CAAA /* Main.storyboard */; };
+		08722F8920CAD0AD0083CAAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08722F8820CAD0AD0083CAAA /* Assets.xcassets */; };
+		08722F8C20CAD0AD0083CAAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08722F8A20CAD0AD0083CAAA /* LaunchScreen.storyboard */; };
+		08722F8F20CAD0AD0083CAAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08722F8E20CAD0AD0083CAAA /* main.m */; };
+		08722F9920CAD0AE0083CAAA /* TS_Tac_ToeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08722F9820CAD0AE0083CAAA /* TS_Tac_ToeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08722F9520CAD0AE0083CAAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08722F7420CAD0AC0083CAAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08722F7B20CAD0AC0083CAAA;
+			remoteInfo = "TS-Tac-Toe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08722F7C20CAD0AC0083CAAA /* TS-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TS-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08722F7F20CAD0AC0083CAAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08722F8020CAD0AC0083CAAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08722F8220CAD0AC0083CAAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08722F8320CAD0AC0083CAAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08722F8620CAD0AC0083CAAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08722F8820CAD0AD0083CAAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08722F8B20CAD0AD0083CAAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08722F8D20CAD0AD0083CAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08722F8E20CAD0AD0083CAAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08722F9420CAD0AE0083CAAA /* TS-Tac-ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TS-Tac-ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08722F9820CAD0AE0083CAAA /* TS_Tac_ToeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TS_Tac_ToeTests.m; sourceTree = "<group>"; };
+		08722F9A20CAD0AE0083CAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08722F7920CAD0AC0083CAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08722F9120CAD0AE0083CAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08722F7320CAD0AC0083CAAA = {
+			isa = PBXGroup;
+			children = (
+				08722F7E20CAD0AC0083CAAA /* TS-Tac-Toe */,
+				08722F9720CAD0AE0083CAAA /* TS-Tac-ToeTests */,
+				08722F7D20CAD0AC0083CAAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08722F7D20CAD0AC0083CAAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08722F7C20CAD0AC0083CAAA /* TS-Tac-Toe.app */,
+				08722F9420CAD0AE0083CAAA /* TS-Tac-ToeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08722F7E20CAD0AC0083CAAA /* TS-Tac-Toe */ = {
+			isa = PBXGroup;
+			children = (
+				08722F7F20CAD0AC0083CAAA /* AppDelegate.h */,
+				08722F8020CAD0AC0083CAAA /* AppDelegate.m */,
+				08722F8220CAD0AC0083CAAA /* ViewController.h */,
+				08722F8320CAD0AC0083CAAA /* ViewController.m */,
+				08722F8520CAD0AC0083CAAA /* Main.storyboard */,
+				08722F8820CAD0AD0083CAAA /* Assets.xcassets */,
+				08722F8A20CAD0AD0083CAAA /* LaunchScreen.storyboard */,
+				08722F8D20CAD0AD0083CAAA /* Info.plist */,
+				08722F8E20CAD0AD0083CAAA /* main.m */,
+			);
+			path = "TS-Tac-Toe";
+			sourceTree = "<group>";
+		};
+		08722F9720CAD0AE0083CAAA /* TS-Tac-ToeTests */ = {
+			isa = PBXGroup;
+			children = (
+				08722F9820CAD0AE0083CAAA /* TS_Tac_ToeTests.m */,
+				08722F9A20CAD0AE0083CAAA /* Info.plist */,
+			);
+			path = "TS-Tac-ToeTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08722F7B20CAD0AC0083CAAA /* TS-Tac-Toe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08722F9D20CAD0AE0083CAAA /* Build configuration list for PBXNativeTarget "TS-Tac-Toe" */;
+			buildPhases = (
+				08722F7820CAD0AC0083CAAA /* Sources */,
+				08722F7920CAD0AC0083CAAA /* Frameworks */,
+				08722F7A20CAD0AC0083CAAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TS-Tac-Toe";
+			productName = "TS-Tac-Toe";
+			productReference = 08722F7C20CAD0AC0083CAAA /* TS-Tac-Toe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08722F9320CAD0AE0083CAAA /* TS-Tac-ToeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08722FA020CAD0AE0083CAAA /* Build configuration list for PBXNativeTarget "TS-Tac-ToeTests" */;
+			buildPhases = (
+				08722F9020CAD0AE0083CAAA /* Sources */,
+				08722F9120CAD0AE0083CAAA /* Frameworks */,
+				08722F9220CAD0AE0083CAAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08722F9620CAD0AE0083CAAA /* PBXTargetDependency */,
+			);
+			name = "TS-Tac-ToeTests";
+			productName = "TS-Tac-ToeTests";
+			productReference = 08722F9420CAD0AE0083CAAA /* TS-Tac-ToeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08722F7420CAD0AC0083CAAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Talkspace;
+				TargetAttributes = {
+					08722F7B20CAD0AC0083CAAA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					08722F9320CAD0AE0083CAAA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 08722F7B20CAD0AC0083CAAA;
+					};
+				};
+			};
+			buildConfigurationList = 08722F7720CAD0AC0083CAAA /* Build configuration list for PBXProject "TS-Tac-Toe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08722F7320CAD0AC0083CAAA;
+			productRefGroup = 08722F7D20CAD0AC0083CAAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08722F7B20CAD0AC0083CAAA /* TS-Tac-Toe */,
+				08722F9320CAD0AE0083CAAA /* TS-Tac-ToeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08722F7A20CAD0AC0083CAAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08722F8C20CAD0AD0083CAAA /* LaunchScreen.storyboard in Resources */,
+				08722F8920CAD0AD0083CAAA /* Assets.xcassets in Resources */,
+				08722F8720CAD0AC0083CAAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08722F9220CAD0AE0083CAAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08722F7820CAD0AC0083CAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08722F8420CAD0AC0083CAAA /* ViewController.m in Sources */,
+				08722F8F20CAD0AD0083CAAA /* main.m in Sources */,
+				08722F8120CAD0AC0083CAAA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08722F9020CAD0AE0083CAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08722F9920CAD0AE0083CAAA /* TS_Tac_ToeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08722F9620CAD0AE0083CAAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08722F7B20CAD0AC0083CAAA /* TS-Tac-Toe */;
+			targetProxy = 08722F9520CAD0AE0083CAAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08722F8520CAD0AC0083CAAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08722F8620CAD0AC0083CAAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08722F8A20CAD0AD0083CAAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08722F8B20CAD0AD0083CAAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08722F9B20CAD0AE0083CAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08722F9C20CAD0AE0083CAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08722F9E20CAD0AE0083CAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FQ9C6KXWU;
+				INFOPLIST_FILE = "TS-Tac-Toe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "talktala.TS-Tac-Toe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08722F9F20CAD0AE0083CAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FQ9C6KXWU;
+				INFOPLIST_FILE = "TS-Tac-Toe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "talktala.TS-Tac-Toe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08722FA120CAD0AE0083CAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FQ9C6KXWU;
+				INFOPLIST_FILE = "TS-Tac-ToeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "talktala.TS-Tac-ToeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TS-Tac-Toe.app/TS-Tac-Toe";
+			};
+			name = Debug;
+		};
+		08722FA220CAD0AE0083CAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5FQ9C6KXWU;
+				INFOPLIST_FILE = "TS-Tac-ToeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "talktala.TS-Tac-ToeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TS-Tac-Toe.app/TS-Tac-Toe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08722F7720CAD0AC0083CAAA /* Build configuration list for PBXProject "TS-Tac-Toe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08722F9B20CAD0AE0083CAAA /* Debug */,
+				08722F9C20CAD0AE0083CAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08722F9D20CAD0AE0083CAAA /* Build configuration list for PBXNativeTarget "TS-Tac-Toe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08722F9E20CAD0AE0083CAAA /* Debug */,
+				08722F9F20CAD0AE0083CAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08722FA020CAD0AE0083CAAA /* Build configuration list for PBXNativeTarget "TS-Tac-ToeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08722FA120CAD0AE0083CAAA /* Debug */,
+				08722FA220CAD0AE0083CAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08722F7420CAD0AC0083CAAA /* Project object */;
+}
